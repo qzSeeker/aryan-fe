@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import React, { useRef } from 'react';
 import ResourceCard from './ResourceCard';
 import { resourcesData, ResourceCard as ResourceCardType } from '../data/resourceData';
