@@ -23,7 +23,7 @@ return (
                 : "opacity-0 -translate-x-20"
             }`}
             >
-            <h1 className="text-4xl md:text-[7rem] font-medium leading-tight">
+            <h1 className="text-[4rem] md:text-[7rem] font-medium leading-0.1 md:leading-tight">
                 Trade Anytime <span className="text-[#fe58da]"> Anywhere</span>
             </h1>
             </div>
@@ -41,7 +41,7 @@ return (
             {/* Glow effect */}
             <div className="absolute -inset-2 bg-[#8b5cf6] blur-3xl opacity-80 rounded-2xl z-[-1]" />
 
-            <div className="w-40 h-40 md:w-56 md:h-56 flex items-center justify-center">
+            <div className="w-28 h-28 md:w-56 md:h-56 flex items-center justify-center">
                 <Image
                 src="/fakeqr.png"
                 alt="QR Code"

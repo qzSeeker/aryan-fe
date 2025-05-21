@@ -26,7 +26,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
           const lineHeight = useTransform(scrollYProgress, [0, 1], [0, 200]); // 150px height per segment
 
           return (
-            <div key={index} ref={ref} className="relative mb-42">
+            <div key={index} ref={ref} className="relative mb-48">
               {/* Step Circle */}
               <div className="absolute left-1/2 transform -translate-x-1/2 z-20">
                 <div className="relative w-12 h-12 rounded-full bg-dark dark:bg-neutral-950 border-2 border-gray-700 flex items-center justify-center">
@@ -54,13 +54,13 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
 
               {/* Step Content */}
               <div
-                className={`mt-24 md:mt-20 p-6 md:p-10 md:w-1/2 ${
+                className={`mt-20 p-6 md:p-10 md:w-1/2 ${
                   index % 2 === 0
-                    ? "md:ml-[55%] md:text-left"
-                    : "md:mr-[55%] md:text-right"
+                    ? "md:ml-[55%] md:text-left ml-[50%]"
+                    : "md:mr-[55%] md:text-right mr-[50%]"
                 }`}
               >
-                <div className="text-white text-base">{item.content}</div>
+                <div className="text-white">{item.content}</div>
               </div>
             </div>
           );

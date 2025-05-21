@@ -24,23 +24,23 @@ return (
         </div>
 
         <div className="max-w-4xl">
-            <h1 className="text-4xl md:text-5xl font-medium leading-tight">
+            <h1 className="text-3xl md:text-5xl font-medium leading-tight">
             <BlurText text="We've Paid Out Over" delay={100} />
             </h1>
 
-            <h1 className="text-4xl md:text-5xl font-medium mb-4 leading-tight">
+            <h1 className="text-3xl md:text-5xl font-medium mb-4 leading-tight">
             <BlurText text="$1M to Traders" delay={300} />
             </h1>
 
-            <p className="text-gray-400 text-md max-w-2xl mx-auto">
+            <p className="text-gray-400 text-sm md:text-md max-w-2xl mx-auto">
             Your Trust is Our Fuel—Power Up with Zuperior
             </p>
         </div>
 
         {/* Counter with continuously incrementing value */}
-        <div className="mt-12 mb-8">
+        <div className="mt-12 md:mb-8">
             <Counter
-            className="text-6xl md:text-7xl lg:text-[12rem] font-medium text-gray-300"
+            className="text-5xl md:text-7xl lg:text-[12rem] font-medium text-gray-300"
             startValue={999156}
             interval={3000}
             />

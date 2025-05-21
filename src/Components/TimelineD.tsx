@@ -8,8 +8,8 @@ export function TimelineDemo() {
       title: "01",
       content: (
         <div>
-            <h2 className="text-neutral-500 font-medium md:text-sm dark:text-neutral-200">Step 1</h2>
-            <p className="text-lg font-medium">
+            <h2 className="text-neutral-500 font-medium text-xs md:text-sm dark:text-neutral-200">Step 1</h2>
+            <p className="text-sm md:text-lg font-medium">
               Register Your Account    
             </p>
         </div>
@@ -20,8 +20,8 @@ export function TimelineDemo() {
       title: "02",
       content: (
         <div>
-            <h2 className="text-neutral-500 font-medium md:text-sm dark:text-neutral-200">Step 2</h2>
-            <p className="text-lg font-medium ">
+            <h2 className="text-neutral-500 font-medium text-xs md:text-sm dark:text-neutral-200">Step 2</h2>
+            <p className="text-sm md:text-lg font-medium ">
               Deposit Your Funds    
             </p>
         </div>
@@ -33,8 +33,8 @@ export function TimelineDemo() {
       title: "03",
       content: (
        <div>
-            <h2 className="text-neutral-500 font-medium md:text-sm dark:text-neutral-200">Step 3</h2>
-            <p className="text-lg font-medium">
+            <h2 className="text-neutral-500 font-medium text-xs md:text-sm dark:text-neutral-200">Step 3</h2>
+            <p className="text-sm md:text-lg font-medium">
               KYC  
             </p>
         </div>
@@ -45,8 +45,8 @@ export function TimelineDemo() {
       title: "04",
       content: (
        <div>
-            <h2 className="text-neutral-500 font-medium md:text-sm dark:text-neutral-200">Step 4</h2>
-            <p className="text-lg font-medium">
+            <h2 className="text-neutral-500 font-medium text-xs md:text-sm dark:text-neutral-200">Step 4</h2>
+            <p className="text-sm md:text-lg font-medium">
               Start Trading & Earn Profits 
             </p>
         </div>

@@ -43,7 +43,7 @@ const ResourcesHeader: React.FC<ResourcesHeaderProps> = ({
             </p>
         </div>
 
-        <div className="relative w-full flex justify-between">
+        <div className="relative w-full flex flex-col md:flex-row items-center gap-6 md:gap-0 justify-between">
             <div
             className={`flex space-x-6 border-b border-gray-800 transition-all duration-1000 transform delay-300 ${
                 isIntersecting
@@ -55,7 +55,7 @@ const ResourcesHeader: React.FC<ResourcesHeaderProps> = ({
                 <button
                 key={category.id}
                 onClick={() => setActiveCategory(category.id)}
-                className={`pb-2 px-1 text-sm font-medium transition-colors relative ${
+                className={`pb-2 px-1 text-xs md:text-sm font-medium transition-colors relative ${
                     activeCategory === category.id
                     ? "text-[#8b5cf6]"
                     : "text-gray-400 hover:text-gray-300"
@@ -68,7 +68,7 @@ const ResourcesHeader: React.FC<ResourcesHeaderProps> = ({
                 </button>
             ))}
             </div>
-            <div className="flex space-x-4">
+            <div className="hidden md:flex space-x-4">
                 <button
                     className="w-10 h-10 rounded-full border border-gray-700 flex items-center justify-center text-gray-400 hover:text-white hover:border-gray-500 transition-colors"
                     aria-label="Previous"

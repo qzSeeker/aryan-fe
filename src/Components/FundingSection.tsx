@@ -7,7 +7,7 @@ import { ArrowUpRight } from 'lucide-react';
 const FundingSection = () => {
   return (
     <section className="py-20 text-center relative">
-      <div className="absolute inset-0 bg-gradient-to-t from-[#1e123a] to-transparent opacity-30 pointer-events-none"></div>
+      <div className="absolute inset-0 pointer-events-none"></div>
       <div className="flex flex-col items-center justify-center mb-8 bg-black w-max mx-auto px-4 py-1 rounded-2xl border border-[#b2c5ff]">
           <button className="text-xs md:text-sm font-medium bg-black border-neutral-950 bg-gradient-to-r from-[#ffffff]/50 to-[#8b5cf6] bg-clip-text text-transparent">
             Prop Firm
