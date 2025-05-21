@@ -1,5 +1,5 @@
 import React from 'react';
-import { PlanType } from '../types';
+import { PlanType } from '../types/type';
 import AnimatedBorder from './AnimatedBorder';
 
 interface PricingCardProps {

@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import ResourcesHeader from './ResourceHeader';
 import ResourcesCards from './ResourceCards';
-// import ResourcesCards from './ResourceCard';
 
 const ResourcesSection: React.FC = () => {
     const [activeCategory, setActiveCategory] = useState('education');

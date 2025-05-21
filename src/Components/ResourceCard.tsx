@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import useIntersectionObserver from '../hooks/useIntersectionObserver';
 import { ResourceCard as ResourceCardType } from '../data/resourceData';
+import Image from 'next/image';
 
 interface ResourceCardProps {
     card: ResourceCardType;
@@ -30,10 +31,13 @@ const ResourceCard: React.FC<ResourceCardProps> = ({ card, index }) => {
         >
         <div className="bg-transparent border border-white/10 h-full flex flex-col rounded-lg overflow-hidden hover:shadow-lg hover:shadow-purple-500/20 transition-all duration-300">
             <div className="relative h-48 overflow-hidden">
-            <img 
-                src={card.image} 
-                alt={card.title} 
-                className="w-full h-full object-cover rounded-2xl shadow-xl transition-transform duration-700 hover:scale-110"
+            <Image
+                src={card.image}
+                alt={card.title}
+                layout="fill"
+                objectFit="cover"
+                className="rounded-2xl shadow-xl transition-transform duration-700 hover:scale-110"
+                priority={index === 0}
             />
             </div>
             <div className="p-4 flex flex-col flex-grow">
