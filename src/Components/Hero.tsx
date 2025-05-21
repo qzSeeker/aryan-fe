@@ -34,7 +34,8 @@ const Hero = () => {
   return (
     <section className="relative pt-16 pb-20 md:pt-28 md:pb-32 overflow-hidden">
       <div className="absolute inset-0 w-full flex items-center justify-center">
-        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-[300px] rounded-full bg-gradient-to-t from-[#a855f7] to-transparent blur-[100px] opacity-90" />
+<div className="absolute top-40 left-1/2 -translate-x-1/2 w-[400px] h-[220px] rounded-b-full bg-gradient-to-t from-[#a855f7] to-transparent blur-[100px] opacity-80" />
+          <div className="absolute -bottom-56 left-1/2 -translate-x-1/2 w-full h-[400px] rounded-full bg-gradient-to-t from-[#8015e4] via-[#ffffff] to-[#8015e4] blur-[200px] opacity-90" />
       </div>
       
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
